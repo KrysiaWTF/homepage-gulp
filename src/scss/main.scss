@@ -3,7 +3,6 @@
 
 
 html {
-  background: #E9F0F0;
   margin: 0;
 }
 
@@ -72,8 +71,8 @@ body {
   z-index: 9;
   background: #404046;
   display: grid;
-  &__title {
-    color: #D3E1E2;
+  &__title {  
+    color:#D3E1E2;
     padding: 20px 10px;
     margin: 0;
   }
@@ -103,13 +102,12 @@ body {
     list-style: none;
   }
   &__link {
-    color: #10676d;
+    color: #404046;
     text-decoration: none;
     padding: 10px 10PX;
-    margin: 0 10px 0 10px;
     background: #D3E1E2;
     border-radius: 10px;
-    min-width: 120px;
+    min-width: 400px;
     box-sizing: border-box;
     &--home {
       min-width: 120px;
@@ -130,7 +128,7 @@ body {
       min-width: 120px;
     }
     &--item {
-      min-width: 120px;
+      min-width: 400x;
       box-sizing: border-box;
     }
     &--wpisy {

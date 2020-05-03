@@ -308,7 +308,6 @@ template {
   display: none; }
 
 html {
-  background: #E9F0F0;
   margin: 0; }
 
 body {
@@ -398,13 +397,12 @@ body {
   list-style: none; }
 
 .navigation__link {
-  color: #10676d;
+  color: #404046;
   text-decoration: none;
   padding: 10px 10PX;
-  margin: 0 10px 0 10px;
   background: #D3E1E2;
   border-radius: 10px;
-  min-width: 120px;
+  min-width: 400px;
   -webkit-box-sizing: border-box;
           box-sizing: border-box; }
   .navigation__link--home {
@@ -429,7 +427,7 @@ body {
     max-height: 38px;
     min-width: 120px; }
   .navigation__list--item {
-    min-width: 120px;
+    min-width: 400x;
     -webkit-box-sizing: border-box;
             box-sizing: border-box; }
   .navigation__list--wpisy {

@@ -54,4 +54,17 @@ menuDrop.addEventListener('mouseleave', () => {
   navigationDrop.classList.remove('navigation__drop--visible')
 });
 
+// Praca domowa 03.05.2020 
+
+const repoList = document.querySelector('.repo__list--js')
+
+fetch("https://api.github.com/users/krysiawtf/repos")
+.then(repos=>repos.json())
+.then(repos=>{
+  for(const repo of repos) {
+    const {name, html_url} = repo;
+    repoList.innerHTML += `<li> <a href="${html_url}">${name}</a> </li>`
+  }
+})
+
 
